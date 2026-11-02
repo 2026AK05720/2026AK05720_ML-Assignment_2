@@ -55,9 +55,10 @@ Precision, Recall and F1 use weighted averaging, and AUC is one-vs-rest weighted
 Features: CSV upload (test data), model selection dropdown, evaluation metrics, confusion matrix and classification report, and a comparison of all models.
 
 ## 6. Project structure
-- 'ML_Assignment2
+
+ML_Assignment2
 │
-├── model/                     
+├── model/
 │   ├── Decision_Tree.joblib
 │   ├── KNN.joblib
 │   ├── label_encoder.joblib
@@ -66,12 +67,13 @@ Features: CSV upload (test data), model selection dropdown, evaluation metrics, 
 │   └── SVM.joblib
 │
 ├── .gitignore
-├── app.py         
+├── app.py
 ├── data.csv
 ├── README.md
-├── requirements.txt   
-├── test_data.csv      
-└── train_models.py    
+├── requirements.txt
+├── test_data.csv
+└── train_models.py
+   
 
 # 7. Run locally
 - '1.Install the packages listed in requirements.txt.
@@ -82,14 +84,14 @@ Features: CSV upload (test data), model selection dropdown, evaluation metrics, 
 The app does not train or refit models. All preprocessing and classifier steps are persisted together in each model pipeline. 
 
 # 7. Deploy to Streamlit Community Cloud
-1.Create a GitHub repository and push the contents of this project folder to its root. Keep app.py, requirements.txt, test_data.csv, and the complete model/ directory in the repository; do not upload .venv.
-2.Open Streamlit Community Cloud and sign in with the GitHub account that can access the repository.
-3.elect Create app, choose the repository and branch, and set the main file path to app.py.
-4.Select Deploy and wait for the build to finish. The app should load using the committed model artifacts; model training is not required in the cloud.
-5.Open the resulting public app URL and verify the dataset overview, sample download, CSV upload, five-model comparison, confusion matrix, and classification report.
-6.Add both the GitHub repository URL and deployed app URL to the submission PDF and the links below.
+-' 1.Create a GitHub repository and push the contents of this project folder to its root. Keep app.py, requirements.txt, test_data.csv, and the complete model/ directory in the repository; do not upload .venv.
+-' 2.Open Streamlit Community Cloud and sign in with the GitHub account that can access the repository.
+-' 3.select Create app, choose the repository and branch, and set the main file path to app.py.
+-' 4.Deploy and wait for the build to finish. The app should load using the committed model artifacts; model training is not required in the cloud.
+-' 5.Open the resulting public app URL and verify the dataset overview, sample download, CSV upload, five-model comparison, confusion matrix, and classification report.
+-' 6.Add both the GitHub repository URL and deployed app URL to the submission PDF and the links below.
 
-GitHub repository: https://github.com/2026AK05720/2026AK05720_ML-Assignment_2
-Live Streamlit app:
+-' GitHub repository: https://github.com/2026AK05720/2026AK05720_ML-Assignment_2
+-' Live Streamlit app:
 ## 7. Submission items still to complete
 - `Capture the required BITS Virtual Lab screenshot and include it in the final submission PDF.
