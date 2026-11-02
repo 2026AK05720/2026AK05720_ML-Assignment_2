@@ -84,13 +84,14 @@ ML_Assignment2
 
 The app does not train or refit models. All preprocessing and classifier steps are persisted together in each model pipeline. 
 
-# 7. Deploy to Streamlit Community Cloud
--' 1.Create a GitHub repository and push the contents of this project folder to its root. Keep app.py, requirements.txt, test_data.csv, and the complete model/ directory in the repository; do not upload .venv.
--' 2.Open Streamlit Community Cloud and sign in with the GitHub account that can access the repository.
--' 3.select Create app, choose the repository and branch, and set the main file path to app.py.
--' 4.Deploy and wait for the build to finish. The app should load using the committed model artifacts; model training is not required in the cloud.
--' 5.Open the resulting public app URL and verify the dataset overview, sample download, CSV upload, five-model comparison, confusion matrix, and classification report.
--' 6.Add both the GitHub repository URL and deployed app URL to the submission PDF and the links below.
+ ## 7. Deploy to Streamlit Community Cloud
+
+1. Create a GitHub repository and push the contents of this project folder to its root. Keep `app.py`, `requirements.txt`, `test_data.csv`, and the complete `model/` directory in the repository. Do not upload `venv/`.
+2. Open Streamlit Community Cloud and sign in with the GitHub account that can access the repository.
+3. Select **Create app**, choose the repository and branch, and set the main file path to `app.py`.
+4. Deploy and wait for the build to finish. The app should load using the committed model artifacts; model training is not required in the cloud.
+5. Open the resulting public app URL and verify the dataset overview, sample download, CSV upload, five-model comparison, confusion matrix, and classification report.
+6. Add both the GitHub repository URL and the deployed app URL to the submission PDF and the links below.
 
 - **GitHub repository:**  https://github.com/2026AK05720/2026AK05720_ML-Assignment_2
 - **Live Streamlit app:** https://2026ak05720-mlassignment2.streamlit.app/
