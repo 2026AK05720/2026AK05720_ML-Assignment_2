@@ -20,7 +20,7 @@ The objective is to predict a student's academic outcome as one of three classes
 **Preprocessing:** column names were stripped of extra whitespace; the target was label-encoded; the data was split 80:20 with stratification (random_state=42); features were standardized with StandardScaler inside each model pipeline. The 20% test portion is saved as `test_data.csv`.
 
 ## 3. GitHub Repository
-https://github.com/AiKharbade/2026AK05720_ML-Assignment_2
+https://github.com/2026AK05720/2026AK05720_ML-Assignment_2
 
 ## 4. Models Used
 
@@ -57,7 +57,7 @@ Features: CSV upload (test data), model selection dropdown, evaluation metrics, 
 ## 6. Project structure
 - 'ML_Assignment2
 │
-├── model/                     : saved models (`.joblib`) for all five classifiers and the label encoder
+├── model/                     
 │   ├── Decision_Tree.joblib
 │   ├── KNN.joblib
 │   ├── label_encoder.joblib
@@ -66,12 +66,12 @@ Features: CSV upload (test data), model selection dropdown, evaluation metrics, 
 │   └── SVM.joblib
 │
 ├── .gitignore
-├── app.py         : Streamlit application
+├── app.py         
 ├── data.csv
 ├── README.md
-├── requirements.txt   : dependencies
-├── test_data.csv      :test data for the app
-└── train_models.py    :training and evaluation script
+├── requirements.txt   
+├── test_data.csv      
+└── train_models.py    
 
 # 7. Run locally
 - '1.Install the packages listed in requirements.txt.
