@@ -56,6 +56,7 @@ Features: CSV upload (test data), model selection dropdown, evaluation metrics, 
 
 ## 6. Project structure
 
+```text
 ML_Assignment2
 │
 ├── model/
@@ -73,7 +74,7 @@ ML_Assignment2
 ├── requirements.txt
 ├── test_data.csv
 └── train_models.py
-   
+```
 
 # 7. Run locally
 - '1.Install the packages listed in requirements.txt.
@@ -91,7 +92,7 @@ The app does not train or refit models. All preprocessing and classifier steps a
 -' 5.Open the resulting public app URL and verify the dataset overview, sample download, CSV upload, five-model comparison, confusion matrix, and classification report.
 -' 6.Add both the GitHub repository URL and deployed app URL to the submission PDF and the links below.
 
--' GitHub repository: https://github.com/2026AK05720/2026AK05720_ML-Assignment_2
--' Live Streamlit app:
+- **GitHub repository:**  https://github.com/2026AK05720/2026AK05720_ML-Assignment_2
+- **Live Streamlit app:** https://2026ak05720-mlassignment2.streamlit.app/
 ## 7. Submission items still to complete
 - `Capture the required BITS Virtual Lab screenshot and include it in the final submission PDF.
