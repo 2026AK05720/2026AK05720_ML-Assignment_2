@@ -50,7 +50,7 @@ Precision, Recall and F1 use weighted averaging, and AUC is one-vs-rest weighted
 **Logistic Regression** gave the highest Accuracy, AUC, Precision, Recall, F1 and MCC on this dataset, with SVM a close second.
 
 ## 5. Streamlit Application
-**Live app:** http://localhost:8501/
+**Live app:** https://2026ak05720-mlassignment2.streamlit.app/
 
 Features: CSV upload (test data), model selection dropdown, evaluation metrics, confusion matrix and classification report, and a comparison of all models.
 
