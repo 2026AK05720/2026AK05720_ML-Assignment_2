@@ -1,6 +1,6 @@
 # ML Assignment 2: Predict Students' Dropout and Academic Success
 
-M.Tech (AIML), BITS Pilani WILP | Roll No: 2026AK05720
+M.Tech (AIML), BITS Pilani WILP | BITS ID: 2026AK05720
 
 ## 1. Problem Statement
 The objective is to predict a student's academic outcome as one of three classes: **Dropout**, **Enrolled** or **Graduate**. Early identification of students at risk of dropping out helps institutions provide timely support and improve retention. Five classification models are trained, compared and demonstrated in a Streamlit web app.
@@ -79,7 +79,7 @@ ML_Assignment2
 # 7. Run locally
 - '1.Install the packages listed in requirements.txt.
 - '2.Run python train_models.py once to build the five saved pipelines and the reproducible held-out test CSV.
-- '3.Run streamlit run app.py and open the local URL printed in the terminal (normally http://localhost:8501/).
+- '3.Run streamlit run app.py and open the local URL printed in the terminal (normally http://localhost:8502/).
 - '4.The dashboard opens with a dataset overview. Download the bundled sample from the sidebar or upload your own labeled test CSV to reveal all five model results, the comparison chart, confusion matrix, report, and metric-led observations.
 
 The app does not train or refit models. All preprocessing and classifier steps are persisted together in each model pipeline. 

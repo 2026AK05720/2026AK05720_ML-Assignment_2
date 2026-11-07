@@ -13,7 +13,7 @@ from sklearn.metrics import (accuracy_score, classification_report,
 # Configuration
 # ----------------------------------------------------------------------------
 TARGET = "Target"
-ROLL_NO = "2026AK05720"
+BITS_ID = "2026AK05720"
 APP_TITLE = "Student Outcome Predictor"
 DATASET_NAME = "UCI Predict Students' Dropout and Academic Success"
 MAX_ROWS = 20_000
@@ -63,7 +63,7 @@ html, body, [class*="css"], .stApp {{ font-family: 'Plus Jakarta Sans', sans-ser
 .stApp {{ background: {PAPER}; color: {TEXT}; }}
 .block-container {{ padding-top: 2.2rem; max-width: 1280px; }}
 
-/* sidebar */
+/* sidebar */  
 [data-testid="stSidebar"] {{ background: {INK}; }}
 [data-testid="stSidebar"] * {{ color: #E7ECF7; }}
 [data-testid="stSidebar"] [data-testid="stVerticalBlockBorderWrapper"] {{
@@ -238,7 +238,7 @@ def metric_cards(metrics):
 # ----------------------------------------------------------------------------
 with st.sidebar:
     st.markdown(f"""<div class='side-brand'><div class='logo'>ML</div>
-        <div><b>{APP_TITLE}</b><span>Roll No {ROLL_NO}</span></div></div>""",
+        <div><b>{APP_TITLE}</b><span>BITS ID {BITS_ID}</span></div></div>""",
                 unsafe_allow_html=True)
 
     with st.container(border=True):
@@ -270,7 +270,7 @@ with st.sidebar:
 st.markdown(f"""
 <div class='hero'>
   <div class='row'><span class='kicker'>MACHINE LEARNING | CLASSIFICATION</span>
-  <span class='pill'>Roll No {ROLL_NO}</span></div>
+  <span class='pill'>BITS ID {BITS_ID}</span></div>
   <h1>{APP_TITLE}</h1>
   <div class='ds'>Dataset: {DATASET_NAME}</div>
   <p>Upload test data, pick a classifier and see how well it predicts whether a student will drop out, stay enrolled or graduate.</p>
